@@ -5,4 +5,5 @@ func main() {
 	startBuffered()
 	startSelect()
 	startSelectContext()
+	startMutex()
 }
