@@ -7,4 +7,5 @@ func main() {
 	startSelectContext()
 	startMutex()
 	startAtomic()
+	startWorkerPool()
 }
