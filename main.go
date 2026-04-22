@@ -6,4 +6,5 @@ func main() {
 	startSelect()
 	startSelectContext()
 	startMutex()
+	startAtomic()
 }
