@@ -13,7 +13,7 @@ func startBuffered() {
 		fmt.Printf("Received: %s\n", message)
 	}
 
-	fmt.Println("BUFFERED FINISHED.")
+	fmt.Printf("BUFFERED FINISHED.\n\n")
 }
 
 func doSomethingElse(myChannel chan string) {

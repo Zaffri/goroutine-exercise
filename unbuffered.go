@@ -15,7 +15,7 @@ func startUnbuffered() {
 	messageRecieved := <-myChannel
 
 	fmt.Printf("Messaged recieved from unbuffered channel: %s\n", messageRecieved)
-	fmt.Println("UNBUFFERED FINISHED.")
+	fmt.Printf("UNBUFFERED FINISHED.\n\n")
 }
 
 func doSomething(myChannel chan string) {
